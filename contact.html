@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>contact_form</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+
+<body>
+    <header  style="text-align:center; font-size: 3em; color: #0000aa;">
+          <h2>CONTACT-FORM</h2>
+    </header>
+
+    <main>
+        <form name="contact" method="POST" data-netlify="true">
+           <p>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="tel">Telephone:</label><br>
+                <input type="tel" id="tel" name="tel"><br>
+                <label for="number">Age:</label><br>
+                <input type="number" id="number" name="number"><br>
+                <label for="date">Birthday:</label><br>
+                <input type="date" id="date" name="date"><br><br>
+            </p>         
+        
+        
+            <p>
+                <input type="radio" id="male" name="my_gender"/>
+                <label for="male">Male </label>
+                <input type="radio" id="female" name="my_gender"/>
+                <label for="female">Female</label>
+                <input type="radio" id="saynot" name="my_gender"/>
+                <label for="saynot">I'd rather not say</label>
+            </p><br>
+
+            <!--hier zet je de code in de head tags
+            <p>
+                <input type="radio" id="html1" name="fav_language" value="HTML3">
+                <label for="html1">HTML2</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+            </p><br>
+        -->
+
+            <p>
+                <input type="checkbox" id="food1" name="Food_1">
+                <label for="food1"> Italian</label><br>
+                <input type="checkbox" id="food2" name="Food_2">
+                <label for="food2"> Spanish</label><br>
+                <input type="checkbox" id="food3" name="Food_3">
+                <label for="food3"> Arabic</label><br>
+                <input type="checkbox" id="food4" name="Food_4">
+                <label for="food4"> Italian</label><br><br>
+                <label for="favcolor">Select your favorite color:</label>
+                <input type="color" id="favcolor" name="favcolor">
+
+            </p>
+            <br>
+            <textarea name="bio" cols="60" rows="20">Mijn biografie</textarea><br>
+
+            <button type="submit">Send</button>
+            <input type="reset">
+        </form>     
+    </main>
+    
+    
+    <footer >
+        <a style="color: #0000ff" text-align="left" href="index.html" >Homepage</a>
+    </footer>       
+         
+</body>
+</html>
