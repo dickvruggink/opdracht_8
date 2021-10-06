@@ -9,7 +9,7 @@
 
 <body>
     <header  style="text-align:center; font-size: 3em; color: #0000aa;">
-          <h2>CONTACT-FORM</h2>
+          <h3>CONTACT-FORM</h3>
     </header>
 
     <main>
@@ -29,6 +29,7 @@
         
         
             <p>
+                <label>Gender:</label><br><br>
                 <input type="radio" id="male" name="my_gender"/>
                 <label for="male">Male </label>
                 <input type="radio" id="female" name="my_gender"/>
@@ -49,6 +50,7 @@
         -->
 
             <p>
+                <label text-color:white; >Your favorite food:</label><br><br>
                 <input type="checkbox" id="food1" name="Food_1">
                 <label for="food1"> Italian</label><br>
                 <input type="checkbox" id="food2" name="Food_2">
@@ -56,16 +58,23 @@
                 <input type="checkbox" id="food3" name="Food_3">
                 <label for="food3"> Arabic</label><br>
                 <input type="checkbox" id="food4" name="Food_4">
-                <label for="food4"> Italian</label><br><br>
+                <label for="food4"> Greek</label><br><br>
                 <label for="favcolor">Select your favorite color:</label>
                 <input type="color" id="favcolor" name="favcolor">
 
             </p>
             <br>
-            <textarea name="bio" cols="60" rows="20">Mijn biografie</textarea><br>
+            <textarea name="bio" cols="60" rows="10">My bio</textarea><br><br>
 
-            <button type="submit">Send</button>
-            <input type="reset">
+            <label for="myfile">Select one of your recipes :</label>
+            <input type="file" id="myfile" name="myfile"><br><br>
+
+            <label for="homepage">Add your homepage:</label>
+            <input type="url" id="homepage" name="homepage">
+            <input type="submit" value="Submit"><br><br>
+
+            <button type="submit">Send in your form here</button>
+            <input type="reset" value="Reset all">
         </form>     
     </main>
     
@@ -73,6 +82,7 @@
     <footer >
         <a style="color: #0000ff" text-align="left" href="index.html" >Homepage</a>
     </footer>       
-         
+    
+    <br><br>
 </body>
 </html>
