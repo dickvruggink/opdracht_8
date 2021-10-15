@@ -1,0 +1,27 @@
+html, body{
+    background-color: #d6cad1;
+    
+}
+
+.container{
+    border: solid 2px #fff;
+    display: flex;
+    height: 100%;
+}
+
+.container > div {
+    border: solid 10px;
+    flex-grow: 1;
+}
+
+
+.container > div:nth-child(1), div:nth-child(3) {
+    align-self: flex-end;
+
+}
+
+.container > div:nth-child(2), div:nth-child(4) {
+    align-self: flex-start;
+
+}
+
